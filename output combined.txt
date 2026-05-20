@@ -1,0 +1,40 @@
+2D Steady State Heat Conduction Solver
+Right Boundary Convection (3 Sides Fixed)
+3 Sides Convection (Left Side Fixed)
+
+Enter plate length L (m): 0.1
+Enter divisions (n_div): 4
+Enter conductivity k (W/mK): 100
+Enter convection coeff h (W/m^2K): 25
+Enter fluid temperature T_inf (K): 300
+Enter Left boundary temperature (K): 2000
+Enter Bottom boundary temperature (K): 800
+Enter Top boundary temperature (K): 200
+
+RESULTS: Case 1 (1-Side Convective Right Wall)
+Temperatures at Convective Right Wall (x = 0.1):
+Node (4,0): 800.00 K
+Node (4,1): 774.47 K
+Node (4,2): 677.50 K
+Node (4,3): 478.63 K
+Node (4,4): 200.00 K
+
+RESULTS: Case 2 (3-Sides Convective Walls)
+Temperatures at Convective Right Wall (x = 0.1):
+Node (4,0): 1912.49 K
+Node (4,1): 1920.00 K
+Node (4,2): 1922.47 K
+Node (4,3): 1920.00 K
+Node (4,4): 1912.49 K
+Temperatures at Convective Top Wall (y = 0.1):
+Node (0,4): 2000.00 K
+Node (1,4): 1967.07 K
+Node (2,4): 1943.08 K
+Node (3,4): 1925.13 K
+Node (4,4): 1912.49 K
+Temperatures at Convective Bottom Wall (y = 0):
+Node (0,0): 2000.00 K
+Node (1,0): 1967.07 K
+Node (2,0): 1943.08 K
+Node (3,0): 1925.13 K
+Node (4,0): 1912.49 K
